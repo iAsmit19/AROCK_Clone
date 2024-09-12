@@ -6,6 +6,7 @@ import {
   sub_text,
   sub_loc,
 } from "../../../stylesheets/index.module.css";
+import playerSVG from "./src/assets/icons/player.svg";
 import { GlobalContext } from "../../../context/Context";
 import gsap from "gsap";
 
@@ -36,7 +37,7 @@ const SubHeading = () => {
   return (
     <div className={sub_heading}>
       <div className={film_player} ref={playerRef}>
-        <img src="./src/assets/icons/player.svg" alt="" />
+        <img src={playerSVG} alt="" />
         <p>
           PLAY <br /> THE GAME
         </p>
