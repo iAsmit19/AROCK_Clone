@@ -3,7 +3,7 @@ import {
   menu_img_cont,
   menu_img_image,
 } from "../../../stylesheets/index.module.css";
-import menuImage from "/src/assets/backgrounds/ZiEy4fPdc1huKnJf_AROCK-_1473[inverted].webp";
+import menuImage from "/src/assets/backgrounds/background.webp";
 import { Tilt } from "@jdion/tilt-react";
 
 const MenuImage = () => {

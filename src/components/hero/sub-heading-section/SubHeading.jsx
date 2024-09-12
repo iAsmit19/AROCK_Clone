@@ -6,7 +6,7 @@ import {
   sub_text,
   sub_loc,
 } from "../../../stylesheets/index.module.css";
-import playerSVG from "./src/assets/icons/player.svg";
+import playerSVG from "/src/assets/icons/player.svg";
 import { GlobalContext } from "../../../context/Context";
 import gsap from "gsap";
 
