@@ -39,7 +39,7 @@ const SubHeading = () => {
       <div className={film_player} ref={playerRef}>
         <img src={playerSVG} alt="" />
         <p>
-          PLAY <br /> THE GAME
+          PLAY <br /> THE FILM
         </p>
       </div>
       <div className={sub_location}>

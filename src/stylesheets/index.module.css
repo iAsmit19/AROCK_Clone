@@ -109,7 +109,7 @@ body {
 }
 
 .main_heading {
-  height: 450px;
+  height: 41vh;
   width: 100%;
   font-family: "SF Pro";
 }
@@ -131,7 +131,7 @@ body {
 }
 
 .mainHeadR {
-  font-size: 62px;
+  font-size: 3.2vw;
   padding-top: 6%;
 }
 
@@ -314,4 +314,43 @@ body {
 .menu_img_image {
   height: 100%;
   width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar_cont {
+    padding-inline: 4vw;
+  }
+
+  .nav_logo {
+    width: 5vw;
+  }
+
+  .main_heading {
+    height: 20vh;
+  }
+
+  .main_cont {
+    background: url("../assets/backgrounds/ZiEy4fPdc1huKnJf_AROCK-_1473.webp")
+      center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .main_heading h1 {
+    font-size: 15vw;
+  }
+
+  .sub_heading {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .menu_content {
+    width: 100%;
+  }
+
+  .menu_img {
+    display: none;
+  }
 }

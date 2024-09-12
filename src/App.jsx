@@ -48,7 +48,7 @@ const App = () => {
   });
   return (
     <div className={global_cont} ref={mainRef}>
-      <Loader />
+      {/* <Loader /> */}
       <Navbar />
       <Hero />
       <MenuPanel />
